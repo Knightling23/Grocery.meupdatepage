@@ -1,0 +1,49 @@
+.Background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("./assets/hero.jpg");
+  background-size:cover;
+  height: 100vh;
+  width: 100vw;
+  background-color: green;
+  filter: brightness(80%);
+}
+
+.ctaWrap {
+  background-color: lightgray;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, 0);
+  top: 25%;
+  left: 50%;
+  padding: 5px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.ctatext{
+  text-align: left;
+  position: absolute;
+
+
+}
+.ctaInput {
+  padding: 12px;
+  font-size: 1.1rem;
+  margin: 0px auto 10px auto;
+  width: 75%;
+ 
+}
+
+.ctaInput::placeholder {
+  color: #6f6f6f;
+  font-size: 1.1rem;
+}
+
+
+.logosignImage{
+  width: 10%;
+  margin: 10px auto 20px auto;
+}
