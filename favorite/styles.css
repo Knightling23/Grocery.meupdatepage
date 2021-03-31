@@ -1,0 +1,22 @@
+.featuredProduductsCollum{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+}
+
+.featuredProduductsRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.featuredHeading{
+  text-align: center;
+  color: #17b122;
+  font-size: 2.5rem;
+}
