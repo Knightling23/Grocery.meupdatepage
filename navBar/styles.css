@@ -1,0 +1,82 @@
+.navBar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: none;
+}
+
+.navBarFull {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #17b122;
+}
+
+.hamburgerHomeWrapperFull{
+  margin: 0;
+}
+
+.hamburgerHomeWrapper{
+  margin: 0 0 0 13vw;
+}
+
+.hamburgerHomeIcon{
+  padding-left: 0;
+  margin: 0 0 0 2vw;
+}
+
+.shoppingCart {
+  padding: 0;
+  width: 50px;
+  margin-left: 15px;
+}
+
+.cartCount {
+    color: white;
+    font-size: 2.2rem;
+}
+
+.searchBar {
+  position: absolute;
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 50%;
+}
+
+.signUpLogInWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2vw 0 0;
+}
+
+.login {
+  color: white;
+  background-color: transparent;
+  padding-right: 10px;
+  margin: 20px 0 20px 0;
+}
+
+.signUp {
+  background: white;
+  color: #17b122;
+  margin: 20px 15vw 20px 0;
+}
+
+.signUpFull {
+  background: white;
+  color: #107917;
+  margin: 20px 0vw 20px 0;
+}
